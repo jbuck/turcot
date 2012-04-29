@@ -1,25 +1,62 @@
 document.addEventListener( "DOMContentLoaded", function () {
   var pop = Popcorn( "#video" );
 
+  /* turcot */
   pop.googlemap({
-    start: 9.5,
-    end: 16.55,
+    start: 53,
+    end: 59,
     type: "STAMEN-TONER",
     target: "google",
     lat: 45.467777,
     lng: -73.599472,
     zoom: "15",
     heading: "0",
-    pitch: "1",
+    pitch: "1"
+  });
+  /* springfield */
+  pop.googlemap({
+    start: 23,
+    end: 29,
+    type: "STAMEN-TONER",
+    target: "google",
+    lat: 38.79062,
+    lng: -77.173505,
+    zoom: "16",
+    heading: "0",
+    pitch: "1"
+  });
+  /* houston */
+  pop.googlemap({
+    start: 30,
+    end: 36,
+    type: "STAMEN-TONER",
+    target: "google",
+    lat: 29.76004,
+    lng: -95.37405,
+    zoom: "16",
+    heading: "0",
+    pitch: "1"
+  });
+  /* japan */
+  pop.googlemap({
+    start: 37,
+    end: 43,
+    type: "STAMEN-TONER",
+    target: "google",
+    lat: 35.678293,
+    lng: 139.736769,
+    zoom: "16",
+    heading: "0",
+    pitch: "1"
   });
   pop.d3({
-    start: 1,
-    end: 9,
+    start: 93,
+    end: 103,
     target: "d3"
   });
   pop.googlemap({
-    start: 0.5,
-    end: 8.55,
+    start: 93,
+    end: 103,
     type: "ROADMAP",
     target: "sxs",
     lat: 45.463442,
@@ -39,19 +76,19 @@ document.addEventListener( "DOMContentLoaded", function () {
   pop.subtitle({
     "start": 127.76,
     "end": 131.64,
-    "text": "Because I am not going to get<br>a house like the one I have now",
+    "text": "Because I am not going to get a house like the one I have now",
     "target": "subs"
   });
   pop.subtitle({
     "start": 131.8,
     "end": 136.85,
-    "text": "with a garden like the one I have in the back<br> and with an entry like this",
+    "text": "with a garden like the one I have in the back and with an entry like this",
     "target": "subs"
   });
   pop.subtitle({
     "start": 136.89,
     "end": 141.69,
-    "text": "Where do you think they are going to send me?<br> I am 71 years old",
+    "text": "Where do you think they are going to send me? I am 71 years old",
     "target": "subs"
   });
   pop.subtitle({
@@ -63,7 +100,7 @@ document.addEventListener( "DOMContentLoaded", function () {
   pop.subtitle({
     "start": 220.3,
     "end": 228.81,
-    "text": "Reducing the volume of transport allows the<br>reconstruction of a less invasive smaller infrastructure",
+    "text": "Reducing the volume of transport allows the reconstruction of a less invasive smaller infrastructure",
     "target": "subs"
   });
   pop.subtitle({
@@ -75,31 +112,19 @@ document.addEventListener( "DOMContentLoaded", function () {
   pop.subtitle({
     "start": 234.01,
     "end": 240.3,
-    "text": "By redirecting the access roads we<br>reduce the impact in residential areas",
+    "text": "By redirecting the access roads we reduce the impact in residential areas",
     "target": "subs"
   });
   pop.subtitle({
-    "start": 240.52,
-    "end": 249.11,
-    "text": "This illustrates the possibility of conceiving a project<br>founded on the principles of sustainable urban development",
+    "start": 241,
+    "end": 245,
+    "text": "I can't imagine that there are going to be people losing their homes on May 2012",
     "target": "subs"
   });
   pop.subtitle({
-    "start": 249.21,
-    "end": 256.81,
-    "text": "Studies show the possibility of reducing by<br>30% the number of cars using the new Turcot",
-    "target": "subs"
-  });
-  pop.subtitle({
-    "start": 256.82,
-    "end": 264.51,
-    "text": "This reduction is possible due to a shift<br> from private car to public transportation",
-    "target": "subs"
-  });
-  pop.subtitle({
-    "start": 264.57,
-    "end": 270.4,
-    "text": "And also due to a redirection of local traffic to an optimized arterial system",
+    "start": 245,
+    "end": 250,
+    "text": "I don't know if we are going to win on other areas, but at least we should stop this.",
     "target": "subs"
   });
   pop.play();
