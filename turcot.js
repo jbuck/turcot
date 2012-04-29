@@ -70,62 +70,53 @@ document.addEventListener( "DOMContentLoaded", function () {
   pop.subtitle({
     "start": 124.74,
     "end": 126.73,
-    "text": "I do not want to move",
-    "target": "subs"
+    "text": "I do not want to move"
   });
   pop.subtitle({
     "start": 127.76,
     "end": 131.64,
-    "text": "Because I am not going to get a house like the one I have now",
-    "target": "subs"
+    "text": "Because I am not going to get a house like the one I have now"
   });
   pop.subtitle({
     "start": 131.8,
     "end": 136.85,
-    "text": "with a garden like the one I have in the back and with an entry like this",
-    "target": "subs"
+    "text": "with a garden like the one I have in the back and with an entry like this"
   });
   pop.subtitle({
     "start": 136.89,
     "end": 141.69,
-    "text": "Where do you think they are going to send me? I am 71 years old",
-    "target": "subs"
+    "text": "Where do you think they are going to send me? I am 71 years old"
   });
   pop.subtitle({
     "start": 142.73,
     "end": 145.63,
-    "text": "I am going to be send to a cheap nursing home",
-    "target": "subs"
+    "text": "I am going to be send to a cheap nursing home"
   });
   pop.subtitle({
     "start": 220.3,
     "end": 228.81,
-    "text": "Reducing the volume of transport allows the reconstruction of a less invasive smaller infrastructure",
-    "target": "subs"
+    "text": "Reducing the volume of transport allows the reconstruction of a less invasive smaller infrastructure"
   });
   pop.subtitle({
     "start": 228.82,
     "end": 233.96,
     "text": "The number of access roads will change gradually one at a time",
-    "target": "subs"
+    
   });
   pop.subtitle({
     "start": 234.01,
     "end": 240.3,
-    "text": "By redirecting the access roads we reduce the impact in residential areas",
-    "target": "subs"
+    "text": "By redirecting the access roads we reduce the impact in residential areas"
   });
   pop.subtitle({
     "start": 241,
     "end": 245,
-    "text": "I can't imagine that there are going to be people losing their homes on May 2012",
-    "target": "subs"
+    "text": "I can't imagine that there are going to be people losing their homes on May 2012"
   });
   pop.subtitle({
     "start": 245,
     "end": 250,
-    "text": "I don't know if we are going to win on other areas, but at least we should stop this.",
-    "target": "subs"
+    "text": "I don't know if we are going to win on other areas, but at least we should stop this."
   });
   pop.play();
 
