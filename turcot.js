@@ -1,14 +1,39 @@
 document.addEventListener( "DOMContentLoaded", function () {
   var pop = Popcorn( "#video" );
 
+  /* springfield */
   pop.googlemap({
-    start: 9.5,
-    end: 16.55,
+    start: 23,
+    end: 29,
     type: "STAMEN-TONER",
     target: "google",
     lat: 38.79062,
     lng: -77.173505,
-    zoom: "15",
+    zoom: "16",
+    heading: "0",
+    pitch: "1",
+  });
+  /* houston */
+  pop.googlemap({
+    start: 30,
+    end: 36,
+    type: "STAMEN-TONER",
+    target: "google",
+    lat: 29.76004,
+    lng: -95.37405,
+    zoom: "16",
+    heading: "0",
+    pitch: "1",
+  });
+  /* japan */
+  pop.googlemap({
+    start: 37,
+    end: 43,
+    type: "STAMEN-TONER",
+    target: "google",
+    lat: 35.68949,
+    lng: 139.69171,
+    zoom: "16",
     heading: "0",
     pitch: "1",
   });
