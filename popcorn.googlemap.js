@@ -174,6 +174,8 @@ var googleCallback;
         var isMapSetup = function() {
           if ( map ) {
             map.getDiv().style.display = "block";
+            var div = document.getElementById( options.target );
+            div.style.display = "block";
             // reset the location and zoom just in case the user plaid with the map
             google.maps.event.trigger( map, "resize" );
             map.setCenter( location );
@@ -328,6 +330,7 @@ var googleCallback;
                 }
               }
             }
+
           } else {
             setTimeout(function () {
               isMapSetup();
@@ -345,8 +348,10 @@ var googleCallback;
       end: function ( event, options ) {
         // if the map exists hide it do not delete the map just in
         // case the user seeks back to time b/w start and end
+        var div = document.getElementById( options.target );
         if ( map ) {
           map.getDiv().style.display = "none";
+          div.style.display = "none";
         }
       },
       _teardown: function ( options ) {
