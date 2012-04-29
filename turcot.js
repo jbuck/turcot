@@ -2,15 +2,15 @@ document.addEventListener( "DOMContentLoaded", function () {
   var pop = Popcorn( "#video" );
 
   pop.googlemap({
-    start: 4,
-    end: 11,
-    type: "STAMEN-TERRAIN",
+    start: 9.5,
+    end: 16.55,
+    type: "STAMEN-TONER",
     target: "google",
     lat: 38.79062,
     lng: -77.173505,
     zoom: "15",
     heading: "0",
-    pitch: "1"
+    pitch: "1",
   });
   /* Subtitles */
   pop.subtitle({
