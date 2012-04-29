@@ -12,6 +12,11 @@ document.addEventListener( "DOMContentLoaded", function () {
     heading: "0",
     pitch: "1",
   });
+  pop.d3({
+    start: 1,
+    end: 9,
+    target: "d3"
+  });
   /* Subtitles */
   pop.subtitle({
     "start": 124.74,
