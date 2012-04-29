@@ -6,8 +6,8 @@ document.addEventListener( "DOMContentLoaded", function () {
     end: 16.55,
     type: "STAMEN-TONER",
     target: "google",
-    lat: 38.79062,
-    lng: -77.173505,
+    lat: 45.467777,
+    lng: -73.599472,
     zoom: "15",
     heading: "0",
     pitch: "1",
@@ -16,6 +16,18 @@ document.addEventListener( "DOMContentLoaded", function () {
     start: 1,
     end: 9,
     target: "d3"
+  });
+  pop.googlemap({
+    start: 0.5,
+    end: 8.55,
+    type: "ROADMAP",
+    target: "sxs",
+    lat: 45.463442,
+    lng: -73.617067,
+    zoom: "12",
+    heading: "0",
+    pitch: "1",
+    kml: "http://hothacks.butyr.org/turcot.kml"
   });
   /* Subtitles */
   pop.subtitle({

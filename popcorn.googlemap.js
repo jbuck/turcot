@@ -37,7 +37,8 @@ var googleCallback;
 
   function buildMap( options, location, mapDiv ) {
     var type = options.type ? options.type.toUpperCase() : "HYBRID",
-      layer;
+      layer,
+      kmlLayer;
 
     // See if we need to make a custom Stamen map layer
     if ( type === "STAMEN-WATERCOLOR" ||
@@ -57,6 +58,11 @@ var googleCallback;
     if ( layer ) {
       map.mapTypes.set( layer, new google.maps.StamenMapType( layer ));
     }
+    if ( options.kml ) {
+      kmlLayer = new google.maps.KmlLayer( options.kml );
+      kmlLayer.setMap(map);
+    }
+    
     map.getDiv().style.display = "none";
 
     return map;
