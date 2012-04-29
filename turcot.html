@@ -1,0 +1,47 @@
+<html>
+  
+  <head>
+    <title>Turcot</title>
+    <script src="http://popcornjs.org/code/popcorn.js"></script>
+    <script src="http://popcornjs.org/code/plugins/subtitle/popcorn.subtitle.js"></script>
+    <script src="popcorn.googlemap.js"></script>
+    <script src="turcot.js"></script>
+    <style>
+      #videoContainer {
+        position: relative;
+        width: 1000px;
+        margin: 0px auto;
+      }
+      #subs {
+        position: absolute;
+        bottom: 40px;
+        left: 200px;
+        text-align: center;
+        width: 600px;
+        color: white;
+        font: 16px/32px Helvetica, Sans-Serif;
+        text-shadow: black 2px 2px 6px;
+      }
+      #google {
+        position: absolute;
+        left: 800px;
+        top: 0px;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="videoContainer">
+      <video id="video" controls width="1000px">
+        <source id="webm" src="http://hothacks.butyr.org/turcot.webm" />
+        <p>Your user agent does not support the HTML5 Video element.</p>
+      </video>
+      <div id="subs"></div>
+      <div id="google"></div>
+    </div>
+  </body>
+
+</html>
